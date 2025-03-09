@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const API_KEY = process.env.API_KEY;
-const BASE_URL = process.env.BASE_URL;
+const API_KEY = import.meta.env.API_KEY;
+const BASE_URL = import.meta.env.BASE_URL;
 
 const api = axios.create({
   baseURL: BASE_URL,
