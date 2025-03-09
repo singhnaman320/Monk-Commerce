@@ -83,7 +83,11 @@ monk-commerce-frontend/
 ├── services/
 └── assets/
 ```
-
+### 📦 Clone the Repository
+```bash
+git clone https://github.com/your-username/monk-commerce-frontend.git
+cd monk-commerce-frontend
+```
 ---
 
 ## 🗂 TODO (Planned Enhancements)
