@@ -19,11 +19,11 @@
     "axios": "^1.8.2",
     "nodemon": "^3.1.9",
     "postcss": "^8.5.3",
-    "react": "^19.0.0",
+    "react": "^18.2.0",
     "react-beautiful-dnd": "^13.1.1",
     "react-dnd": "^16.0.1",
     "react-dnd-html5-backend": "^16.0.1",
-    "react-dom": "^19.0.0",
+    "react-dom": "^18.2.0",
     "tailwindcss": "^4.0.12"
   },
   "devDependencies": {
