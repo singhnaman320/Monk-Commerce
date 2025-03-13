@@ -1,7 +1,10 @@
 import axios from 'axios';
 
-const API_KEY = import.meta.env.API_KEY;
-const BASE_URL = import.meta.env.BASE_URL;
+const API_KEY = '72njgfa948d9aS7gs5';
+const BASE_URL = 'https://stageapi.monkcommerce.app/task';
+
+// const API_KEY = import.meta.env.VITE_API_KEY;
+// const BASE_URL = import.meta.env.VITE_BASE_URL;
 
 const api = axios.create({
   baseURL: BASE_URL,
