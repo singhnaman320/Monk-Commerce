@@ -9,6 +9,14 @@ const ProductPicker = ({ isOpen, onClose, onProductSelect }) => {
   const { products, loading, hasMore, fetchProducts, resetSearch } = useProducts();
   const observer = useRef();
 
+  // Add this useEffect to fetch products when the modal opens
+  useEffect(() => {
+    if (isOpen) {
+      resetSearch();
+      fetchProducts();
+    }
+  }, [isOpen]);
+
   const lastProductRef = useCallback(node => {
     if (loading) return;
     if (observer.current) observer.current.disconnect();
